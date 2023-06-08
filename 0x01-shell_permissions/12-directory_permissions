@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir my-dir chmod u+XWR g+RX o+X .
