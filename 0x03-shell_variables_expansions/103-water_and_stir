@@ -1,0 +1,2 @@
+#!/bin/bash
+result=$(echo "$(( $(echo "${WATER//water/0}" | tr '[:lower:]' '[:upper:]' ) + $(echo "${STIR//stir/0}" | tr '[:lower:]' '[:upper:]' ) ))" | tr '[:upper:]' '[:lower:]' | tr '[:digit:]' 'bestchol' ) echo "$result"
